@@ -261,9 +261,11 @@
 .section2_game_btn_yellow img {
   width: 100%;
 }
-.section2_game_btn_yellow2 img{
+
+.section2_game_btn_yellow2 img {
   width: 100%;
 }
+
 .timer_content {
   width: 130px;
   height: 86px;
@@ -369,6 +371,7 @@
   width: 100%;
   height: 160px;
   background: url(../img/game/finish.png);
+  background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
   top: 50%;
@@ -971,6 +974,7 @@
     width: 411.76px;
     height: 280.44px;
   }
+
   .section2_game_yellow_border2 {
     width: 457.5px;
     height: 418px;
@@ -985,6 +989,7 @@
     transform: translate(-89%, -82%);
     display: none; */
   }
+
   .section2_game_yellow_border3 {
     width: 457.5px;
     height: 368px;
@@ -999,14 +1004,17 @@
     transform: translate(-89%, -82%);
     display: none; */
   }
+
   .section2_game_pop_title {
     font-size: 32px;
     line-height: 40px;
     margin-top: 20px;
   }
-.section2_game_pop_title2{
-  margin-top: 30px;
-}
+
+  .section2_game_pop_title2 {
+    margin-top: 30px;
+  }
+
   .section2_game_pop_contect {
     font-size: 20px;
     line-height: 30px;
@@ -1018,9 +1026,12 @@
     width: 227px;
     height: 67.26px;
   }
+
   .section2_game_btn_yellow2 {
     width: 240px;
     height: 67.26px;
+    bottom: -1%;
+    left: 49%;
   }
 
   .section2_game_question {
@@ -1070,16 +1081,18 @@
     height: 94.66px;
     border: 4px solid #F5AC18;
   }
+
   .question_text_hint {
     font-size: 35px;
     margin-top: 40px;
     left: 44%;
   }
+
   .success {
     top: 50%;
     left: 15%;
   }
-  
+
   .video {
     width: 365.22px;
     height: 206.67px;
@@ -1088,25 +1101,26 @@
     left: 50%;
     transform: translate(-50%, -55%); */
   }
+
   .forminput {
     width: 250px;
     height: 32px;
     font-size: 26px;
     margin-left: 20px;
   }
-  
+
   .formtext {
     font-size: 26px;
     margin-top: 30px;
   }
-  
+
   .form_btn {
     width: 200px;
     height: 60px;
     font-size: 28px;
     bottom: -7%;
   }
-  
+
   .form_send_btn {
     width: 200px;
     height: 60px;
@@ -1451,6 +1465,179 @@
     width: 90%;
   }
 
+  /* ===================  sec02 ===================== */
+  .section2_game_all {
+    height: 620px;
+  }
+
+  .section2_game_bg {
+    width: 520px;
+    height: 557.7px;
+  }
+
+  .section2_game_building {
+    width: 261.32px;
+    height: 349.31px;
+    background-size: cover;
+  }
+
+  .section2_game_balck_bg {
+    width: 520px;
+    height: 557.7px;
+  }
+
+  .section2_game_yellow_border {
+    width: 345.34px;
+    height: 235.19px;
+  }
+
+  .section2_game_yellow_border2 {
+    width: 383.71px;
+    height: 350.58px;
+    left: 12%;
+    /* background: #FFFFFF;
+    border: 5.325px solid #F5AC18;
+    box-sizing: border-box;
+    border-radius: 13.3125px;
+    position: absolute;
+    top: 18%;
+    left: 11%;
+    transform: translate(-89%, -82%);
+    display: none; */
+  }
+
+  .section2_game_yellow_border3 {
+    width: 383.71px;
+    height: 308.65px;
+  }
+
+  .section2_game_pop_title {
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 20px;
+  }
+
+  .section2_game_pop_title2 {
+    margin-top: 30px;
+  }
+
+  .section2_game_pop_contect {
+    font-size: 17px;
+    line-height: 28px;
+    width: 300px;
+    margin: 20px auto 20px;
+  }
+
+  .section2_game_btn_yellow {
+    width: 190.24px;
+    height: 56.37px;
+  }
+
+  .section2_game_btn_yellow2 {
+    width: 201.29px;
+    height: 56.41px;
+    bottom: -1%;
+    left: 49%;
+  }
+
+  .section2_game_question {
+    width: 463px;
+    height: 177.32px;
+    border: 4px solid #F5AC18;
+    bottom: 0px;
+  }
+
+  .timer_content {
+    width: 80px;
+    height: 60px;
+    right: 10px;
+    top: 10px;
+  }
+
+  .timer_text {
+    color: #000000;
+    font-family: 'Microsoft JhengHei';
+    font-size: 26px;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .spaceimg1 {
+    width: 79.39px;
+    height: 79.39px;
+    border: 4px solid #ffffff;
+    top: 59%;
+    left: 41.7%;
+  }
+
+  .spaceimg2 {
+    width: 79.39px;
+    height: 79.39px;
+    border: 4px solid #ffffff;
+    top: 87%;
+    left: 26%;
+  }
+
+  .question_text {
+    font-size: 24px;
+    margin-top: 22px;
+  }
+
+  .question_img {
+    width: 79.39px;
+    height: 79.39px;
+    border: 4px solid #F5AC18;
+  }
+
+  .question_text_hint {
+    font-size: 30px;
+    margin-top: 40px;
+    left: 44%;
+  }
+
+  .success {
+    top: 50%;
+    left: 15%;
+    width: 356.45px;
+    height: 134.19px;
+  }
+
+  .video {
+    width: 306.31px;
+    height: 173.34px;
+    top: 47%;
+  }
+
+  .forminput {
+    width: 200px;
+    height: 28px;
+    font-size: 22px;
+    margin-left: 20px;
+  }
+
+  .formtext {
+    font-size: 22px;
+    margin-top: 25px;
+  }
+
+  .form_btn {
+    width: 160px;
+    height: 45px;
+    font-size: 24px;
+    bottom: -7%;
+  }
+
+  .form_send_btn {
+    width: 160px;
+    height: 45px;
+    font-size: 24px;
+    bottom: -4px;
+  }
+
+  /* ===================  sec02 end================== */
   .section3_box1 {
     width: 95%;
     height: 100%;
@@ -1771,6 +1958,180 @@
     height: 26px;
   }
 
+  /* ===================  sec02 ===================== */
+  .section2_game_all {
+    height: 403px;
+  }
+
+  .section2_game_bg {
+    border: 5px solid #8C6A4D;
+    width: 320px;
+    height: 343.21px;
+  }
+
+  .section2_game_building {
+    width: 160.81px;
+    height: 214.96px;
+    background-size: cover;
+  }
+
+  .section2_game_balck_bg {
+    width: 320px;
+    height: 343.21px;
+    top: -5px;
+    left: -5px;
+  }
+
+  .section2_game_yellow_border {
+    width: 212.52px;
+    height: 170px;
+    top: 53%;
+    border: 3px solid #F5AC18;
+  }
+
+  .section2_game_yellow_border2 {
+    width: 300px;
+    height: 260px;
+    left: 1.9%;
+    top: 16%;
+  }
+
+  .section2_game_yellow_border3 {
+    width: 300px;
+    height: 240px;
+    left: 1.9%;
+    top: 18%;
+  }
+
+  .section2_game_pop_title {
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 10px;
+  }
+
+  .section2_game_pop_title2 {
+    margin-top: 20px;
+  }
+
+  .section2_game_pop_contect {
+    font-size: 14px;
+    line-height: 20px;
+    width: 185px;
+    margin: 10px auto 15px;
+  }
+
+  .section2_game_btn_yellow {
+    width: 117.07px;
+    height: 34.69px;
+  }
+
+  .section2_game_btn_yellow2 {
+    width: 123.87px;
+    height: 34.71px;    
+    bottom: -3%;
+    left: 49%;
+  }
+
+  .section2_game_question {
+    width: 284.92px;
+    height: 109.12px;
+    border: 3px solid #F5AC18;
+    bottom: 0px;
+  }
+
+  .timer_content {
+    width: 55px;
+    height: 38px;
+    right: 10px;
+    top: 10px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+  }
+
+  .timer_text {
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .spaceimg1 {
+    width: 48.85px;
+    height: 48.85px;
+    border: 4px solid #ffffff;
+    top: 59%;
+    left: 41.7%;
+  }
+
+  .spaceimg2 {
+    width: 48.85px;
+    height: 48.85px;
+    border: 4px solid #ffffff;
+    top: 87%;
+    left: 26%;
+  }
+
+  .question_text {
+    font-size: 15px;
+    margin-top: 14px;
+  }
+
+  .question_img {
+    width: 48.85px;
+    height: 48.85px;
+    border: 4px solid #F5AC18;
+    border-radius: 10px;
+    margin-top: 12px;
+  }
+
+  .question_text_hint {
+    font-size: 18px;
+    margin-top: 26px;
+    left: 44%;
+  }
+
+  .success {
+    top: 50%;
+    left: 15%;
+    width: 219.35px;
+    height: 82.58px
+  }
+
+  .video {
+    width: 270px;
+    height: 152.79px;
+    top: 50%;
+  }
+
+  .forminput {
+    width: 120px;
+    height: 28px;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .formtext {
+    font-size: 14px;
+    margin-top: 12px;
+  }
+
+  .form_btn {
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    bottom: -7%;
+  }
+
+  .form_send_btn {
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    bottom: -18px;
+  }
+
+  /* ===================  sec02 end================== */
   .section3_box1 {
     width: 95%;
     height: 100%;
@@ -2102,4 +2463,9 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+@media (max-width: 413.98px) {
+  .section2_bg {
+    background-image: none;
+  }
 }
