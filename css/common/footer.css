@@ -360,6 +360,9 @@
 }
 
 @media (max-width: 511.98px) {
+  .footer_link_1{
+    padding-top: 30px;
+  }
   .footer_c {
     bottom: 15px;
   }
