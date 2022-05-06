@@ -889,12 +889,11 @@
 
 .section6_box {
   width: 360px;
-  /* margin: 0 auto; */
   background: #ffffff;
   border: 2px solid #4f4f4f;
   border-radius: 20px;
   position: absolute;
-  top: -720px;
+  bottom: -280px;
   right: 5%;
 }
 
@@ -2028,7 +2027,7 @@
 
   .section2_game_btn_yellow2 {
     width: 123.87px;
-    height: 34.71px;    
+    height: 34.71px;
     bottom: -3%;
     left: 49%;
   }
@@ -2097,7 +2096,7 @@
     top: 50%;
     left: 15%;
     width: 219.35px;
-    height: 82.58px;  
+    height: 82.58px;
     background-size: cover;
   }
 
@@ -2400,7 +2399,7 @@
   }
 
   .title-box {
-    padding: 15px 0px 15px 40px;
+    padding: 15px 8px 15px 40px;
     min-height: 58px;
   }
 
@@ -2416,8 +2415,9 @@
     border: 2px solid #4f4f4f;
     border-radius: 20px;
     position: absolute;
-    top: -350px;
+    /* top: -350px; */
     right: 3%;
+    bottom: -280px;
   }
 
   .section6_box_btn {
@@ -2466,6 +2466,7 @@
   height: 100%;
   object-fit: contain;
 }
+
 @media (max-width: 413.98px) {
   .section2_bg {
     background-image: none;
