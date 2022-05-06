@@ -361,6 +361,13 @@
 
 @media (max-width: 511.98px) {
   .footer_c {
-    bottom: 10px;
+    bottom: 15px;
+  }
+  .footer_log {
+    padding-top: 30px;
+  }
+
+  .footer_log_1 {
+    padding: 30px 0px 0px 15px;
   }
 }
