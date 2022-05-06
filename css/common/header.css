@@ -14,7 +14,6 @@ header {
   height: 100px;
   position: relative;
   background-color: #fff;
-  /* top :0 ;s */
   z-index: 23;
   margin: 0;
 }
@@ -71,9 +70,7 @@ a {
   padding-right: 42px;
   cursor: pointer;
 }
-/* .nav_top_title1 {
-  border-bottom: 3px solid rgba(255, 208, 43, 1);
-} */
+
 .nav_top_title span:hover {
   border-bottom: 3px solid rgba(255, 208, 43, 1);
 }
@@ -105,24 +102,19 @@ a {
   display: none;
 }
 .nav_right_bg {
-  /* background-image: url("../../img/mark-1.svg");
-  background-repeat: no-repeat; */
   position: absolute;
   left: -128px;
   height: 50px;
   width: 150px;
-  /* display: none; */
 }
 .nav_right_text {
   position: absolute;
   left: -100px;
   font-size: 18px;
-  /* width: 500px; */
   line-height: 50px;
   color: #fff;
 }
 .nav_right_img {
-  /* padding: 5px; */
   border-bottom: 1px solid gray;
   width: 50px;
   height: 50px;
@@ -224,8 +216,6 @@ div.flex_div {
   .ham {
     width: 75px;
     height: 55px;
-    /* border-radius: 5px;
-    background: rgba(0, 0, 0, 0.3); */
     display: block;
     position: relative;
     z-index: 100;
@@ -245,7 +235,6 @@ div.flex_div {
     align-items: center;
     justify-content: center;
     margin-right: 10px;
-    /* margin: -1px 0 0 -13px; */
     transition: all 0.5s;
     border-radius: 30px;
   }
@@ -270,7 +259,6 @@ div.flex_div {
     opacity: 0;
   }
   #nav-toggle:checked ~ .nav_top_title_all {
-    /* visibility:visible; */
     transform: none;
     position: absolute;
     top: 50px;
@@ -278,7 +266,6 @@ div.flex_div {
   }
   .nav_top_title_all {
     display: block;
-    /* visibility:hidden; */
     height: 377px;
     width: 100%;
     border: 1px solid #bdbdbd;
@@ -289,7 +276,6 @@ div.flex_div {
     z-index: 0;
     right: 0;
     top: 0;
-    /* bottom: 0; */
     line-height: 76px;
     /* 用 translate 把選單藏到畫面右邊去 */
     transform: translateY(-100%);
@@ -321,10 +307,6 @@ div.flex_div {
     border-radius: 0px 0px 10px 10px;
     border-bottom: 0px;
   }
-  /* .nav_top_title span{
-    display: block;
-    margin: 0 auto;
-  } */
   body {
     position: relative;
   }
@@ -364,7 +346,6 @@ div.flex_div {
   }
   /* 漢堡的title icon 跟 aside 共用class */
   .nav_right_img {
-    /* padding: 5px; */
     border: 0px solid gray;
     width: 50px;
     height: 74px;
@@ -392,8 +373,6 @@ div.flex_div {
   .ham {
     width: 75px;
     height: 50px;
-    /* border-radius: 5px;
-    background: rgba(0, 0, 0, 0.3); */
     display: block;
     position: relative;
     z-index: 100;
@@ -413,7 +392,6 @@ div.flex_div {
     align-items: center;
     justify-content: center;
     margin-right: 10px;
-    /* margin: -1px 0 0 -13px; */
     transition: all 0.5s;
     border-radius: 30px;
   }
@@ -438,7 +416,6 @@ div.flex_div {
     opacity: 0;
   }
   #nav-toggle:checked ~ .nav_top_title_all {
-    /* visibility:visible; */
     transform: none;
     position: absolute;
     top: 50px;
@@ -514,11 +491,7 @@ div.flex_div {
     height: 55px;
   }
   .nav_top_title span {
-    /* padding: 10px 0 0px; */
-    /* display: block; */
-    /* margin-top: 10px; */
     font-size: 18px;
-    /* height: 30px; */
   }
   aside {
     display: none;
@@ -528,7 +501,6 @@ div.flex_div {
   }
   /* 漢堡的title icon 跟 aside 共用class */
   .nav_right_img {
-    /* padding: 5px; */
     border: 0px solid gray;
     width: 50px;
     height: 49px;

@@ -112,7 +112,6 @@
 
 .section1_img_text {
   font-size: 18px;
-  /* width: 310px; */
   color: #fff;
   text-align: center;
   line-height: 60px;
@@ -120,8 +119,6 @@
 
 /* ============  section1  end ============ */
 /* ============  section2 ============ */
-.section2 {}
-
 .section2_game_all {
   width: 100%;
   height: 900px;
@@ -171,16 +168,6 @@
   top: -10px;
   left: -10px;
 }
-
-/* 
-.section2_game_brown_border {
-  border: 5.32px solid #8C6A4D;
-  box-sizing: border-box;
-  border-radius: 19px;
-  width: 532.49px;
-  height: 365.64px;
-  margin: 244px auto;
-} */
 
 .section2_game_yellow_border {
   width: 522px;
@@ -521,7 +508,6 @@
   display: flex;
   margin: 50px auto;
   width: 850px;
-  /* border: 1px solid red; */
 }
 
 .section3_caseA {
@@ -574,7 +560,6 @@
   align-items: center;
   justify-content: center;
   letter-spacing: 0.05em;
-  /* margin-left: 10px; */
 }
 
 .section3_caseB_num {
@@ -662,7 +647,6 @@
   position: absolute;
   top: -36px;
   left: 27px;
-  /* border: 1px solid red; */
 }
 
 .section4_box1_mark_num {
@@ -758,14 +742,11 @@
 .section4_box3_content {
   font-size: 18px;
   margin: 0 auto;
-  /* width: 90%; */
-  /* width: 670px; */
 }
 
 .section4_box3_content_title {
   padding: 20px 10px;
   text-align: justify;
-  /* margin:  auto 10px; */
 }
 
 .section4_box3_content_bg {
@@ -818,8 +799,6 @@
 }
 
 .contents-box {
-  /* margin: 18px auto; */
-  /* padding: 10px 28px 20px 28px; */
   padding-left: 28px;
   padding-right: 28px;
   padding-top: 10px;
@@ -827,7 +806,6 @@
   border-radius: 0px 0px 50px 50px;
   position: relative;
   border: 2px solid #4f4f4f;
-  /* z-index: 1; */
   overflow: hidden;
   border-top: none;
   transition: 0.3s ease;
@@ -898,7 +876,6 @@
 }
 
 .section6_box_btn {
-  /* margin: 10px 10px 0px; */
   cursor: pointer;
   position: absolute;
   right: 15px;
@@ -977,30 +954,12 @@
     width: 457.5px;
     height: 418px;
     left: 12%;
-    /* background: #FFFFFF;
-    border: 5.325px solid #F5AC18;
-    box-sizing: border-box;
-    border-radius: 13.3125px;
-    position: absolute;
-    top: 18%;
-    left: 11%;
-    transform: translate(-89%, -82%);
-    display: none; */
   }
 
   .section2_game_yellow_border3 {
     width: 457.5px;
     height: 368px;
     left: 12%;
-    /* background: #FFFFFF;
-    border: 5.325px solid #F5AC18;
-    box-sizing: border-box;
-    border-radius: 13.3125px;
-    position: absolute;
-    top: 18%;
-    left: 11%;
-    transform: translate(-89%, -82%);
-    display: none; */
   }
 
   .section2_game_pop_title {
@@ -1089,16 +1048,11 @@
   .success {
     top: 50%;
     left: 15%;
-    /* background-size: cover; */
   }
 
   .video {
     width: 365.22px;
     height: 206.67px;
-    /* position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -55%); */
   }
 
   .forminput {
@@ -1165,8 +1119,6 @@
   .section1_img_text_bg {
     width: 250px;
     height: 60px;
-    /* background: #50b8b2; */
-    /* border-radius: 50px; */
     position: absolute;
     top: 145px;
   }
@@ -1257,7 +1209,6 @@
 
   .section3_box1 {
     width: 660px;
-    /* height: 450px; */
   }
 
   .section3_box_link_all {
@@ -1282,9 +1233,6 @@
     width: 100%;
   }
 
-  /* .section3_box_link2 {
-    left: 590px;
-  } */
   .section3_case {
     width: 90%;
     justify-content: space-between;
@@ -1365,7 +1313,6 @@
   .section4_box3_content_bg {
     width: 100%;
     margin-bottom: 20px;
-    /* height: 100%; */
   }
 
   .section4_box3_both {
@@ -1494,15 +1441,6 @@
     width: 383.71px;
     height: 350.58px;
     left: 12%;
-    /* background: #FFFFFF;
-    border: 5.325px solid #F5AC18;
-    box-sizing: border-box;
-    border-radius: 13.3125px;
-    position: absolute;
-    top: 18%;
-    left: 11%;
-    transform: translate(-89%, -82%);
-    display: none; */
   }
 
   .section2_game_yellow_border3 {
@@ -1680,9 +1618,6 @@
     padding-bottom: 20px;
   }
 
-  /* .section3_box_link2 {
-    left: 87%;
-  } */
   .section3_case {
     width: 90%;
     flex-wrap: wrap;
@@ -1753,18 +1688,6 @@
     height: 100%;
   }
 
-  /* .section4_box1_mark{
-    width: 11%;
-    top: -35px;
-    left: 27px;
-  }
-  .section4_box1_mark img{
-    width: 100%;
-  }
-  .section4_box1_mark_num{
-    top: 14px;
-    left: 17px;
-  } */
   .section4_box1_content {
     width: 90%;
   }
@@ -1792,10 +1715,6 @@
 
   .section4_box3_all {
     display: block;
-  }
-
-  .section4_box3 {
-    /* height: 1190px; */
   }
 
   .section4_box3_content_bg {
@@ -2179,9 +2098,6 @@
     top: -46px;
   }
 
-  /* .section3_box_link2 {
-    left: 260px;
-  } */
   .section3_case {
     width: 90%;
     flex-wrap: wrap;
@@ -2330,12 +2246,6 @@
 
   .section4_img1 {
     border: 3px solid #ffd02b;
-    /* width: 120px;
-    height: 120px; */
-  }
-
-  .section4_box3 {
-    /* height: 1190px; */
   }
 
   .section4_box3_both_title {
@@ -2404,24 +2314,20 @@
   }
 
   .contents p {
-    /* margin-top: 18px; */
     margin-bottom: 0px;
   }
 
   .section6_box {
     width: 300px;
-    /* margin: 0 auto; */
     background: #ffffff;
     border: 2px solid #4f4f4f;
     border-radius: 20px;
     position: absolute;
-    /* top: -350px; */
     right: 3%;
     bottom: -320px;
   }
 
   .section6_box_btn {
-    /* margin: 10px 10px 0px; */
     cursor: pointer;
     position: absolute;
     right: 15px;
