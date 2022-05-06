@@ -963,6 +963,14 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="http://www.youtube.com/player_api"></script>
     <script>
+        var tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      </script>
+    <script src="./js/game.js"></script>
+
+    <script>
         AOS.init();
     </script>
     <script>
@@ -979,7 +987,7 @@
     <script src="./js/sec6.js"></script>
     <script src="./js/header.js"></script>
     <script src="./js/aside.js"></script>
-    <script src="./js/game.js"></script>
+
 </body>
 
 </html>
